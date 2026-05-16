@@ -66,9 +66,10 @@ export default function HomePage() {
   return (
     <div className="auth-page">
       <div className="auth-card animate-slide">
-        <div className="auth-logo">
-          <div className="auth-logo-icon">💰</div>
-          <h1>FinFamily</h1>
+<div className="auth-logo">
+            <div className="auth-logo-icon">💰</div>
+            <h1>FinFamily</h1>
+            <span style={{fontSize:'0.7rem'}}>v2.0</span>
           <p>Gestão Financeira Familiar Inteligente</p>
         </div>
 
