@@ -143,7 +143,7 @@ export default function InstallAppButton() {
         }
       `}</style>
 
-      <div className="install-button">
+      <div className="install-button install-app-button">
         <button
           className="install-button-inner"
           onClick={handleInstall}

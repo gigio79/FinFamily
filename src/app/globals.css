@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+/* Hide browser chrome when app is installed */
+@media all and (display-mode: standalone) {
+  body {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+/* Hide install button when already installed */
+@media all and (display-mode: standalone) {
+  .install-app-button {
+    display: none !important;
+  }
+}
+
 :root {
   /* Color Palette - Premium Dark Theme */
   --bg-primary: #0a0a1a;

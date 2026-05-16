@@ -15,6 +15,10 @@ const withPWAConfig = withPWA({
   reloadOnOnline: false,
   swcMinify: true,
   disable: false,
+  register: true,
+  skipWaiting: true,
+  scope: "/",
+  buildExcludes: [/middleware-manifest.json$/],
 });
 
 export default withPWAConfig(nextConfig);
